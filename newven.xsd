@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="newven" targetNamespace="http://tempuri.org/newven.xsd" xmlns:mstns="http://tempuri.org/newven.xsd" xmlns="http://tempuri.org/newven.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CafeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CafeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HomeCafe.Properties.Settings.GlobalReference.Default.CafeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="venTableAdapter" GeneratorDataComponentClassName="venTableAdapter" Name="ven" UserDataComponentName="venTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CafeConnectionString (Settings)" DbObjectName="Cafe.dbo.ven" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, [نام تامین کننده], [تلفن تماس], آدرس FROM dbo.ven</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="نام تامین کننده" DataSetColumn="نام تامین کننده" />
+              <Mapping SourceColumn="تلفن تماس" DataSetColumn="تلفن تماس" />
+              <Mapping SourceColumn="آدرس" DataSetColumn="آدرس" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="newven" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="newven" msprop:Generator_UserDSName="newven">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ven" msprop:Generator_TableClassName="venDataTable" msprop:Generator_TableVarName="tableven" msprop:Generator_TablePropName="ven" msprop:Generator_RowDeletingName="venRowDeleting" msprop:Generator_RowChangingName="venRowChanging" msprop:Generator_RowEvHandlerName="venRowChangeEventHandler" msprop:Generator_RowDeletedName="venRowDeleted" msprop:Generator_UserTableName="ven" msprop:Generator_RowChangedName="venRowChanged" msprop:Generator_RowEvArgName="venRowChangeEvent" msprop:Generator_RowClassName="venRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="نام_x0020_تامین_x0020_کننده" msprop:Generator_ColumnVarNameInTable="columnنام_تامین_کننده" msprop:Generator_ColumnPropNameInRow="نام_تامین_کننده" msprop:Generator_ColumnPropNameInTable="نام_تامین_کنندهColumn" msprop:Generator_UserColumnName="نام تامین کننده">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تلفن_x0020_تماس" msprop:Generator_ColumnVarNameInTable="columnتلفن_تماس" msprop:Generator_ColumnPropNameInRow="تلفن_تماس" msprop:Generator_ColumnPropNameInTable="تلفن_تماسColumn" msprop:Generator_UserColumnName="تلفن تماس" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="آدرس" msprop:Generator_ColumnVarNameInTable="columnآدرس" msprop:Generator_ColumnPropNameInRow="آدرس" msprop:Generator_ColumnPropNameInTable="آدرسColumn" msprop:Generator_UserColumnName="آدرس" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ven" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

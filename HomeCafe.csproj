@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECE747E0-C235-4656-A8D3-0706574C1105}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HomeCafe</RootNamespace>
+    <AssemblyName>HomeCafe</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>new.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PayPalCoreSDK, Version=1.7.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPalCoreSDK.1.7.1\lib\net40\PayPalCoreSDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.GridView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.RadDock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.Scheduler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2007Silver, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.Themes.Office2007Silver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.Themes.TelerikMetro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.Themes.VisualStudio2012Dark.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.Themes.Windows8.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2020.1.218.40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About us\FrmAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About us\FrmAboutUs.Designer.cs">
+      <DependentUpon>FrmAboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert\Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert\Alert.designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CafeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CafeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CafeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CafeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CafeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\Factors.cs" />
+    <Compile Include="Cashier\FrmEditFactors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\FrmEditFactors.Designer.cs">
+      <DependentUpon>FrmEditFactors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\FrmFactors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\FrmFactors.Designer.cs">
+      <DependentUpon>FrmFactors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\FrmTodayFactors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\FrmTodayFactors.Designer.cs">
+      <DependentUpon>FrmTodayFactors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\FrmUnpayedFactors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\FrmUnpayedFactors.Designer.cs">
+      <DependentUpon>FrmUnpayedFactors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\Items.cs" />
+    <Compile Include="DataBase\IMyDataBase.cs" />
+    <Compile Include="edit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>edit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="editfactors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>editfactors.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="editfactorsproducts.cs">
+      <DependentUpon>editfactorsproducts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="editfactorsproducts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>editfactorsproducts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FactorDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FactorDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Index and Login\Index.cs" />
+    <Compile Include="Index and Login\LoginUser.cs" />
+    <Compile Include="My Custom Classes\CustomAppointmentFactory.cs" />
+    <Compile Include="My Custom Classes\CustomConditionalFormattingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Custom Classes\CustomConditionalFormattingForm.Designer.cs">
+      <DependentUpon>CustomConditionalFormattingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My Custom Classes\CustomGridCheckBoxHeaderCellElement.cs" />
+    <Compile Include="My Custom Classes\CustomGridHeaderCellElement.cs" />
+    <Compile Include="My Custom Classes\CustomHeaderCell.cs" />
+    <Compile Include="My Custom Classes\CustomSchedulerNavigatorLocalizationProvider .cs" />
+    <Compile Include="Index and Login\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index and Login\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index and Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index and Login\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My Custom Classes\IInputValidation.cs" />
+    <Compile Include="My Custom Classes\MyGridViewPrintSettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Custom Classes\MyPrintDocument .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Custom Classes\MyPrintSettingsDiagloFactory.cs" />
+    <Compile Include="My Custom Classes\MyRulerRenderer.cs" />
+    <Compile Include="My Custom Classes\PersianDialogsLocalizationProvider.cs" />
+    <Compile Include="DataBase\MyDatabase.cs" />
+    <Compile Include="newven.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>newven.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportbyGoods.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportbyGoods.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrmDebtReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FrmDebtReport.Designer.cs">
+      <DependentUpon>FrmDebtReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrmReportByBestSellingCatagories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FrmReportByBestSellingCatagories.Designer.cs">
+      <DependentUpon>FrmReportByBestSellingCatagories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrmReportByDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FrmReportByDate.Designer.cs">
+      <DependentUpon>FrmReportByDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrmReportByGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FrmReportByGoods.Designer.cs">
+      <DependentUpon>FrmReportByGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrmReportBySubscribers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FrmReportBySubscribers.Designer.cs">
+      <DependentUpon>FrmReportBySubscribers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Report.cs" />
+    <Compile Include="Table Reservation\MyEditRecurrenceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table Reservation\MyEditRecurrenceDialog.Designer.cs">
+      <DependentUpon>MyEditRecurrenceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My Custom Classes\MyPersianRadGridLocalizationProvider.cs" />
+    <Compile Include="My Custom Classes\PersianCultureHelper.cs" />
+    <Compile Include="My Custom Classes\PersianReminderLocalizationProvider .cs" />
+    <Compile Include="My Custom Classes\PersianSchedulerLocalizationProvider.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table Reservation\Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table Reservation\Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table Reservation\ReservationWithNewFontForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table Reservation\ReservationWithNewFontForm.Designer.cs">
+      <DependentUpon>ReservationWithNewFontForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.cs">
+      <DependentUpon>Resource.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_AddCatagories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_AddCatagories.Designer.cs">
+      <DependentUpon>frm_AddCatagories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_AddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_AddProducts.Designer.cs">
+      <DependentUpon>frm_AddProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_AddTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_AddTable.Designer.cs">
+      <DependentUpon>frm_AddTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\FrmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\FrmAddUser.Designer.cs">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_CreateBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_CreateBackUp.Designer.cs">
+      <DependentUpon>frm_CreateBackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteCatagories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteCatagories.Designer.cs">
+      <DependentUpon>frm_EditDeleteCatagories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteProducts.Designer.cs">
+      <DependentUpon>frm_EditDeleteProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteTable.Designer.cs">
+      <DependentUpon>frm_EditDeleteTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_EditDeleteUser.Designer.cs">
+      <DependentUpon>frm_EditDeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_UpLoadBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_UpLoadBackUp.Designer.cs">
+      <DependentUpon>frm_UpLoadBackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\frm_UserAccessLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\frm_UserAccessLevel.Designer.cs">
+      <DependentUpon>frm_UserAccessLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My Custom Classes\FixLanguageAndForm.cs" />
+    <Compile Include="Subscription\FrmSubscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subscription\FrmSubscription.Designer.cs">
+      <DependentUpon>FrmSubscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My Custom Classes\IFixLanguageAndForms.cs" />
+    <Compile Include="My Custom Classes\InputValidation.cs" />
+    <Compile Include="Subscription\Subscriber.cs" />
+    <Compile Include="vendor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vendor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>warehouse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse\FrmAddVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse\FrmAddVendor.Designer.cs">
+      <DependentUpon>FrmAddVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse\FrmEditDeleteVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse\FrmEditDeleteVendor.Designer.cs">
+      <DependentUpon>FrmEditDeleteVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse\FrmEditWareHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse\FrmEditWareHouse.Designer.cs">
+      <DependentUpon>FrmEditWareHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse\FrmWareHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse\FrmWareHouse.Designer.cs">
+      <DependentUpon>FrmWareHouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse\Vendor.cs" />
+    <EmbeddedResource Include="About us\FrmAboutUs.resx">
+      <DependentUpon>FrmAboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert\Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\FrmEditFactors.resx">
+      <DependentUpon>FrmEditFactors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\FrmFactors.resx">
+      <DependentUpon>FrmFactors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\FrmTodayFactors.resx">
+      <DependentUpon>FrmTodayFactors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\FrmUnpayedFactors.resx">
+      <DependentUpon>FrmUnpayedFactors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index and Login\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index and Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Custom Classes\MyGridViewPrintSettingsDialog.resx">
+      <DependentUpon>MyGridViewPrintSettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrmDebtReport.resx">
+      <DependentUpon>FrmDebtReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrmReportByBestSellingCatagories.resx">
+      <DependentUpon>FrmReportByBestSellingCatagories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrmReportByDate.resx">
+      <DependentUpon>FrmReportByDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrmReportByGoods.resx">
+      <DependentUpon>FrmReportByGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrmReportBySubscribers.resx">
+      <DependentUpon>FrmReportBySubscribers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table Reservation\MyEditRecurrenceDialog.resx">
+      <DependentUpon>MyEditRecurrenceDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Table Reservation\Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table Reservation\ReservationWithNewFontForm.resx">
+      <DependentUpon>ReservationWithNewFontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_AddCatagories.resx">
+      <DependentUpon>frm_AddCatagories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_AddProducts.resx">
+      <DependentUpon>frm_AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_AddTable.resx">
+      <DependentUpon>frm_AddTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\FrmAddUser.resx">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_CreateBackUp.resx">
+      <DependentUpon>frm_CreateBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_EditDeleteCatagories.resx">
+      <DependentUpon>frm_EditDeleteCatagories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_EditDeleteProducts.resx">
+      <DependentUpon>frm_EditDeleteProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_EditDeleteTable.resx">
+      <DependentUpon>frm_EditDeleteTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_EditDeleteUser.resx">
+      <DependentUpon>frm_EditDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_UpLoadBackUp.resx">
+      <DependentUpon>frm_UpLoadBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\frm_UserAccessLevel.resx">
+      <DependentUpon>frm_UserAccessLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subscription\FrmSubscription.resx">
+      <DependentUpon>FrmSubscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse\FrmAddVendor.resx">
+      <DependentUpon>FrmAddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse\FrmEditDeleteVendor.resx">
+      <DependentUpon>FrmEditDeleteVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse\FrmEditWareHouse.resx">
+      <DependentUpon>FrmEditWareHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse\FrmWareHouse.resx">
+      <DependentUpon>FrmWareHouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CafeDataSet.xsc">
+      <DependentUpon>CafeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CafeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CafeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CafeDataSet.xss">
+      <DependentUpon>CafeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CafeDataSet1.xsc">
+      <DependentUpon>CafeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CafeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CafeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CafeDataSet1.xss">
+      <DependentUpon>CafeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CafeDataSet2.xsc">
+      <DependentUpon>CafeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CafeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CafeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CafeDataSet2.xss">
+      <DependentUpon>CafeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="edit.xsc">
+      <DependentUpon>edit.xsd</DependentUpon>
+    </None>
+    <None Include="edit.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>edit.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="edit.xss">
+      <DependentUpon>edit.xsd</DependentUpon>
+    </None>
+    <None Include="editfactors.xsc">
+      <DependentUpon>editfactors.xsd</DependentUpon>
+    </None>
+    <None Include="editfactors.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>editfactors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="editfactors.xss">
+      <DependentUpon>editfactors.xsd</DependentUpon>
+    </None>
+    <None Include="editfactorsproducts.xsc">
+      <DependentUpon>editfactorsproducts.xsd</DependentUpon>
+    </None>
+    <None Include="editfactorsproducts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>editfactorsproducts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="editfactorsproducts.xss">
+      <DependentUpon>editfactorsproducts.xsd</DependentUpon>
+    </None>
+    <None Include="FactorDataSet.xsc">
+      <DependentUpon>FactorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FactorDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FactorDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FactorDataSet.xss">
+      <DependentUpon>FactorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="newven.xsc">
+      <DependentUpon>newven.xsd</DependentUpon>
+    </None>
+    <None Include="newven.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>newven.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="newven.xss">
+      <DependentUpon>newven.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ReportbyGoods.xsc">
+      <DependentUpon>ReportbyGoods.xsd</DependentUpon>
+    </None>
+    <None Include="ReportbyGoods.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportbyGoods.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReportbyGoods.xss">
+      <DependentUpon>ReportbyGoods.xsd</DependentUpon>
+    </None>
+    <None Include="vendor.xsc">
+      <DependentUpon>vendor.xsd</DependentUpon>
+    </None>
+    <None Include="vendor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vendor.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vendor.xss">
+      <DependentUpon>vendor.xsd</DependentUpon>
+    </None>
+    <None Include="warehouse.xsc">
+      <DependentUpon>warehouse.xsd</DependentUpon>
+    </None>
+    <None Include="warehouse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>warehouse.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="warehouse.xss">
+      <DependentUpon>warehouse.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource.xsc">
+      <DependentUpon>Resource.xsd</DependentUpon>
+    </None>
+    <None Include="Resource.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resource.xss">
+      <DependentUpon>Resource.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\IMAG0429.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashier-machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashier-machine %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about_us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashier-machine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuration1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserved1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about_us1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2019-06-07 at 14.31.54.jpeg" />
+    <None Include="Resources\arrowheads-pointing-to-the-left.png" />
+    <Content Include=".gitignore" />
+    <Content Include="new.ico" />
+    <None Include="Resources\ar.png" />
+    <Content Include="Resources\backup.png" />
+    <None Include="Resources\close-envelope.png" />
+    <Content Include="Resources\database %281%29.png" />
+    <None Include="Resources\IMAG04291.jpg" />
+    <None Include="Resources\database %281%291.png" />
+    <Content Include="Resources\database.png" />
+    <None Include="Resources\dinning-table.png" />
+    <Content Include="Resources\error_2.png" />
+    <Content Include="Resources\error_21.png" />
+    <None Include="Resources\home cafe tablo.jpg" />
+    <None Include="Resources\home cafe.jpg" />
+    <None Include="Resources\home cafe1.jpg" />
+    <None Include="Resources\home cafe tablo1.jpg" />
+    <None Include="Resources\home cafe tablo11.jpg" />
+    <None Include="Resources\home cafe tablo12.jpg" />
+    <None Include="Resources\home cafe2.jpg" />
+    <None Include="Resources\smartphone-call.png" />
+    <None Include="Resources\smartphone-call1.png" />
+    <None Include="Resources\photo_2019-04-21_20-31-42.jpg" />
+    <None Include="Resources\LKView.bmp" />
+    <Content Include="Resources\success.png" />
+    <Content Include="Resources\success1.png" />
+    <None Include="Resources\success_Alert.png" />
+    <Content Include="Resources\warning.png" />
+    <Content Include="Resources\warning1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

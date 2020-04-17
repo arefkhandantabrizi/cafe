@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportbyGoods" targetNamespace="http://tempuri.org/ReportbyGoods.xsd" xmlns:mstns="http://tempuri.org/ReportbyGoods.xsd" xmlns="http://tempuri.org/ReportbyGoods.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CafeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CafeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HomeCafe.Properties.Settings.GlobalReference.Default.CafeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="proTableAdapter" GeneratorDataComponentClassName="proTableAdapter" Name="pro" UserDataComponentName="proTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CafeConnectionString (Settings)" DbObjectName="Cafe.dbo.pro" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT دسته, محصول, [تعداد فروش رفته], [تاریخ فروش] FROM dbo.pro</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="دسته" DataSetColumn="دسته" />
+              <Mapping SourceColumn="محصول" DataSetColumn="محصول" />
+              <Mapping SourceColumn="تعداد فروش رفته" DataSetColumn="تعداد فروش رفته" />
+              <Mapping SourceColumn="تاریخ فروش" DataSetColumn="تاریخ فروش" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportbyGoods" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ReportbyGoods" msprop:Generator_UserDSName="ReportbyGoods">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pro" msprop:Generator_TableClassName="proDataTable" msprop:Generator_TableVarName="tablepro" msprop:Generator_TablePropName="pro" msprop:Generator_RowDeletingName="proRowDeleting" msprop:Generator_RowChangingName="proRowChanging" msprop:Generator_RowEvHandlerName="proRowChangeEventHandler" msprop:Generator_RowDeletedName="proRowDeleted" msprop:Generator_UserTableName="pro" msprop:Generator_RowChangedName="proRowChanged" msprop:Generator_RowEvArgName="proRowChangeEvent" msprop:Generator_RowClassName="proRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="دسته" msprop:Generator_ColumnVarNameInTable="columnدسته" msprop:Generator_ColumnPropNameInRow="دسته" msprop:Generator_ColumnPropNameInTable="دستهColumn" msprop:Generator_UserColumnName="دسته">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="محصول" msprop:Generator_ColumnVarNameInTable="columnمحصول" msprop:Generator_ColumnPropNameInRow="محصول" msprop:Generator_ColumnPropNameInTable="محصولColumn" msprop:Generator_UserColumnName="محصول">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تعداد_x0020_فروش_x0020_رفته" msprop:Generator_ColumnVarNameInTable="columnتعداد_فروش_رفته" msprop:Generator_ColumnPropNameInRow="تعداد_فروش_رفته" msprop:Generator_ColumnPropNameInTable="تعداد_فروش_رفتهColumn" msprop:Generator_UserColumnName="تعداد فروش رفته" type="xs:int" minOccurs="0" />
+              <xs:element name="تاریخ_x0020_فروش" msprop:Generator_ColumnVarNameInTable="columnتاریخ_فروش" msprop:Generator_ColumnPropNameInRow="تاریخ_فروش" msprop:Generator_ColumnPropNameInTable="تاریخ_فروشColumn" msprop:Generator_UserColumnName="تاریخ فروش">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

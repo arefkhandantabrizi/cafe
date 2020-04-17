@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CafeDataSet2" targetNamespace="http://tempuri.org/CafeDataSet2.xsd" xmlns:mstns="http://tempuri.org/CafeDataSet2.xsd" xmlns="http://tempuri.org/CafeDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CafeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CafeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HomeCafe.Properties.Settings.GlobalReference.Default.CafeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="factorTableAdapter" GeneratorDataComponentClassName="factorTableAdapter" Name="factor" UserDataComponentName="factorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CafeConnectionString (Settings)" DbObjectName="Cafe.dbo.factor" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, [نام دسته], [نام محصول], cat_id, [ قیمت (ریال)], سایز FROM dbo.factor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="نام دسته" DataSetColumn="نام دسته" />
+              <Mapping SourceColumn="نام محصول" DataSetColumn="نام محصول" />
+              <Mapping SourceColumn="cat_id" DataSetColumn="cat_id" />
+              <Mapping SourceColumn=" قیمت (ریال)" DataSetColumn=" قیمت (ریال)" />
+              <Mapping SourceColumn="سایز" DataSetColumn="سایز" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CafeDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="CafeDataSet2" msprop:Generator_UserDSName="CafeDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="factor" msprop:Generator_TableClassName="factorDataTable" msprop:Generator_TableVarName="tablefactor" msprop:Generator_TablePropName="factor" msprop:Generator_RowDeletingName="factorRowDeleting" msprop:Generator_RowChangingName="factorRowChanging" msprop:Generator_RowEvHandlerName="factorRowChangeEventHandler" msprop:Generator_RowDeletedName="factorRowDeleted" msprop:Generator_UserTableName="factor" msprop:Generator_RowChangedName="factorRowChanged" msprop:Generator_RowEvArgName="factorRowChangeEvent" msprop:Generator_RowClassName="factorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="نام_x0020_دسته" msprop:Generator_ColumnVarNameInTable="columnنام_دسته" msprop:Generator_ColumnPropNameInRow="نام_دسته" msprop:Generator_ColumnPropNameInTable="نام_دستهColumn" msprop:Generator_UserColumnName="نام دسته">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="نام_x0020_محصول" msprop:Generator_ColumnVarNameInTable="columnنام_محصول" msprop:Generator_ColumnPropNameInRow="نام_محصول" msprop:Generator_ColumnPropNameInTable="نام_محصولColumn" msprop:Generator_UserColumnName="نام محصول">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_id" msprop:Generator_ColumnVarNameInTable="columncat_id" msprop:Generator_ColumnPropNameInRow="cat_id" msprop:Generator_ColumnPropNameInTable="cat_idColumn" msprop:Generator_UserColumnName="cat_id" type="xs:int" />
+              <xs:element name="_x0020_قیمت_x0020__x0028_ریال_x0029_" msprop:Generator_ColumnVarNameInTable="_column_قیمت__ریال_" msprop:Generator_ColumnPropNameInRow="__قیمت__ریال_" msprop:Generator_ColumnPropNameInTable="__قیمت__ریال_Column" msprop:Generator_UserColumnName=" قیمت (ریال)" type="xs:long" minOccurs="0" />
+              <xs:element name="سایز" msprop:Generator_ColumnVarNameInTable="columnسایز" msprop:Generator_ColumnPropNameInRow="سایز" msprop:Generator_ColumnPropNameInTable="سایزColumn" msprop:Generator_UserColumnName="سایز" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:factor" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

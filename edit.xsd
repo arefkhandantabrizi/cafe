@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="edit" targetNamespace="http://tempuri.org/edit.xsd" xmlns:mstns="http://tempuri.org/edit.xsd" xmlns="http://tempuri.org/edit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CafeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CafeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HomeCafe.Properties.Settings.GlobalReference.Default.CafeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="editTableAdapter" GeneratorDataComponentClassName="editTableAdapter" Name="edit" UserDataComponentName="editTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CafeConnectionString (Settings)" DbObjectName="Cafe.dbo.edit" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        id, name, [نام محصول], cat_id, [ قیمت (ریال)], سایز
+FROM            edit</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="نام محصول" DataSetColumn="نام محصول" />
+              <Mapping SourceColumn="cat_id" DataSetColumn="cat_id" />
+              <Mapping SourceColumn=" قیمت (ریال)" DataSetColumn=" قیمت (ریال)" />
+              <Mapping SourceColumn="سایز" DataSetColumn="سایز" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="edit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="edit" msprop:Generator_UserDSName="edit">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="edit" msprop:Generator_TableClassName="editDataTable" msprop:Generator_TableVarName="tableedit" msprop:Generator_TablePropName="_edit" msprop:Generator_RowDeletingName="editRowDeleting" msprop:Generator_RowChangingName="editRowChanging" msprop:Generator_RowEvHandlerName="editRowChangeEventHandler" msprop:Generator_RowDeletedName="editRowDeleted" msprop:Generator_UserTableName="edit" msprop:Generator_RowChangedName="editRowChanged" msprop:Generator_RowEvArgName="editRowChangeEvent" msprop:Generator_RowClassName="editRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="نام_x0020_محصول" msprop:Generator_ColumnVarNameInTable="columnنام_محصول" msprop:Generator_ColumnPropNameInRow="نام_محصول" msprop:Generator_ColumnPropNameInTable="نام_محصولColumn" msprop:Generator_UserColumnName="نام محصول">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_id" msprop:Generator_ColumnVarNameInTable="columncat_id" msprop:Generator_ColumnPropNameInRow="cat_id" msprop:Generator_ColumnPropNameInTable="cat_idColumn" msprop:Generator_UserColumnName="cat_id" type="xs:int" />
+              <xs:element name="_x0020_قیمت_x0020__x0028_ریال_x0029_" msprop:Generator_ColumnVarNameInTable="_column_قیمت__ریال_" msprop:Generator_ColumnPropNameInRow="__قیمت__ریال_" msprop:Generator_ColumnPropNameInTable="__قیمت__ریال_Column" msprop:Generator_UserColumnName=" قیمت (ریال)" type="xs:long" minOccurs="0" />
+              <xs:element name="سایز" msprop:Generator_ColumnVarNameInTable="columnسایز" msprop:Generator_ColumnPropNameInRow="سایز" msprop:Generator_ColumnPropNameInTable="سایزColumn" msprop:Generator_UserColumnName="سایز" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:edit" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

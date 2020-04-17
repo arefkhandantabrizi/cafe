@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="editfactors" targetNamespace="http://tempuri.org/editfactors.xsd" xmlns:mstns="http://tempuri.org/editfactors.xsd" xmlns="http://tempuri.org/editfactors.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CafeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CafeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HomeCafe.Properties.Settings.GlobalReference.Default.CafeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="editfactorsTableAdapter" GeneratorDataComponentClassName="editfactorsTableAdapter" Name="editfactors" UserDataComponentName="editfactorsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CafeConnectionString (Settings)" DbObjectName="Cafe.dbo.editfactors" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [نام محل], location_id, [نام میز], table_id, customer_id, id, date, [مبلغ قابل پرداخت] FROM dbo.editfactors</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="نام محل" DataSetColumn="نام محل" />
+              <Mapping SourceColumn="location_id" DataSetColumn="location_id" />
+              <Mapping SourceColumn="نام میز" DataSetColumn="نام میز" />
+              <Mapping SourceColumn="table_id" DataSetColumn="table_id" />
+              <Mapping SourceColumn="customer_id" DataSetColumn="customer_id" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="date" DataSetColumn="date" />
+              <Mapping SourceColumn="مبلغ قابل پرداخت" DataSetColumn="مبلغ قابل پرداخت" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="editfactors" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="editfactors" msprop:Generator_UserDSName="editfactors">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="editfactors" msprop:Generator_TableClassName="editfactorsDataTable" msprop:Generator_TableVarName="tableeditfactors" msprop:Generator_TablePropName="_editfactors" msprop:Generator_RowDeletingName="editfactorsRowDeleting" msprop:Generator_RowChangingName="editfactorsRowChanging" msprop:Generator_RowEvHandlerName="editfactorsRowChangeEventHandler" msprop:Generator_RowDeletedName="editfactorsRowDeleted" msprop:Generator_UserTableName="editfactors" msprop:Generator_RowChangedName="editfactorsRowChanged" msprop:Generator_RowEvArgName="editfactorsRowChangeEvent" msprop:Generator_RowClassName="editfactorsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="نام_x0020_محل" msprop:Generator_ColumnVarNameInTable="columnنام_محل" msprop:Generator_ColumnPropNameInRow="نام_محل" msprop:Generator_ColumnPropNameInTable="نام_محلColumn" msprop:Generator_UserColumnName="نام محل">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="location_id" msprop:Generator_ColumnVarNameInTable="columnlocation_id" msprop:Generator_ColumnPropNameInRow="location_id" msprop:Generator_ColumnPropNameInTable="location_idColumn" msprop:Generator_UserColumnName="location_id" type="xs:int" />
+              <xs:element name="نام_x0020_میز" msprop:Generator_ColumnVarNameInTable="columnنام_میز" msprop:Generator_ColumnPropNameInRow="نام_میز" msprop:Generator_ColumnPropNameInTable="نام_میزColumn" msprop:Generator_UserColumnName="نام میز">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="table_id" msprop:Generator_ColumnVarNameInTable="columntable_id" msprop:Generator_ColumnPropNameInRow="table_id" msprop:Generator_ColumnPropNameInTable="table_idColumn" msprop:Generator_UserColumnName="table_id" type="xs:int" />
+              <xs:element name="customer_id" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="مبلغ_x0020_قابل_x0020_پرداخت" msprop:Generator_ColumnVarNameInTable="columnمبلغ_قابل_پرداخت" msprop:Generator_ColumnPropNameInRow="مبلغ_قابل_پرداخت" msprop:Generator_ColumnPropNameInTable="مبلغ_قابل_پرداختColumn" msprop:Generator_UserColumnName="مبلغ قابل پرداخت" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:editfactors" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

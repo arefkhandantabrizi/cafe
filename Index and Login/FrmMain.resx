@@ -1,0 +1,2185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="telerikMetroTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel_BackGroundPic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Panel_BackGroundPic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Panel_BackGroundPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 88</value>
+  </data>
+  <data name="Panel_BackGroundPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 502</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel_BackGroundPic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel_BackGroundPic.Name" xml:space="preserve">
+    <value>Panel_BackGroundPic</value>
+  </data>
+  <data name="&gt;&gt;Panel_BackGroundPic.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;Panel_BackGroundPic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel_BackGroundPic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="menu_Cashier.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_Cashier.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Cashier.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_Cashier.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Cashier.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_Cashier.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Factor.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_Factor.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_Factor.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_Factor.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Factor.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_Factor.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_Factor.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Factor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Factor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Factor.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_Factor.Text" xml:space="preserve">
+    <value>صدور فاکتور</value>
+  </data>
+  <data name="submenu_Factor.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_Factor.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_NotCheckOut.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_NotCheckOut.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_NotCheckOut.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_NotCheckOut.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_NotCheckOut.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_NotCheckOut.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_NotCheckOut.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_NotCheckOut.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_NotCheckOut.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_NotCheckOut.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_NotCheckOut.Text" xml:space="preserve">
+    <value>تسویه نشده ها</value>
+  </data>
+  <data name="submenu_NotCheckOut.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_NotCheckOut.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_EditFactor.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_EditFactor.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_EditFactor.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_EditFactor.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EditFactor.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_EditFactor.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_EditFactor.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EditFactor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_EditFactor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_EditFactor.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_EditFactor.Text" xml:space="preserve">
+    <value>اصلاح فاکتور</value>
+  </data>
+  <data name="submenu_EditFactor.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_EditFactor.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_AllFactors.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_AllFactors.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_AllFactors.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_AllFactors.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_AllFactors.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_AllFactors.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_AllFactors.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_AllFactors.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_AllFactors.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_AllFactors.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_AllFactors.Text" xml:space="preserve">
+    <value>فاکتورهای امروز</value>
+  </data>
+  <data name="submenu_AllFactors.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_AllFactors.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Cashier.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Cashier.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Cashier.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_Cashier.Text" xml:space="preserve">
+    <value>صندوقدار</value>
+  </data>
+  <data name="menu_Cashier.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Cashier.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Warehouse.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_Warehouse.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Warehouse.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_Warehouse.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Warehouse.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_Warehouse.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EntraceGoods.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_EntraceGoods.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_EntraceGoods.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_EntraceGoods.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EntraceGoods.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_EntraceGoods.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_EntraceGoods.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EntraceGoods.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_EntraceGoods.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_EntraceGoods.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_EntraceGoods.Text" xml:space="preserve">
+    <value>ثبت کالا </value>
+  </data>
+  <data name="submenu_EntraceGoods.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_EntraceGoods.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_EditWareHouseData.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_EditWareHouseData.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_EditWareHouseData.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_EditWareHouseData.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EditWareHouseData.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_EditWareHouseData.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_EditWareHouseData.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_EditWareHouseData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_EditWareHouseData.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_EditWareHouseData.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_EditWareHouseData.Text" xml:space="preserve">
+    <value>اصلاح اطلاعات انبار</value>
+  </data>
+  <data name="submenu_EditWareHouseData.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_EditWareHouseData.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Resources.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_Resources.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_Resources.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_Resources.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Resources.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_Resources.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_Resources.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuResouce_Create.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuResouce_Create.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuResouce_Create.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuResouce_Create.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuResouce_Create.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuResouce_Create.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuResouce_Create.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuResouce_Create.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuResouce_Create.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuResouce_Create.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuResouce_Create.Text" xml:space="preserve">
+    <value>تعریف</value>
+  </data>
+  <data name="submenuResouce_Create.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuResouce_Create.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenuResouce_EditDelete.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuResouce_EditDelete.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuResouce_EditDelete.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuResouce_EditDelete.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuResouce_EditDelete.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuResouce_EditDelete.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuResouce_EditDelete.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuResouce_EditDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuResouce_EditDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuResouce_EditDelete.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuResouce_EditDelete.Text" xml:space="preserve">
+    <value>اصلاح / حذف</value>
+  </data>
+  <data name="submenuResouce_EditDelete.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuResouce_EditDelete.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Resources.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Resources.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Resources.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_Resources.Text" xml:space="preserve">
+    <value>تامین کننده</value>
+  </data>
+  <data name="submenu_Resources.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_Resources.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Warehouse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Warehouse.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Warehouse.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_Warehouse.Text" xml:space="preserve">
+    <value>مدیریت انبار</value>
+  </data>
+  <data name="menu_Warehouse.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Warehouse.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Reports.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_Reports.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Reports.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_Reports.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Reports.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_Reports.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByDate.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_ReportByDate.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_ReportByDate.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_ReportByDate.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByDate.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_ReportByDate.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_ReportByDate.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_ReportByDate.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_ReportByDate.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_ReportByDate.Text" xml:space="preserve">
+    <value>گزارش فروش بر اساس تاریخ</value>
+  </data>
+  <data name="submenu_ReportByDate.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_ReportByDate.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_ReportByGoods.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_ReportByGoods.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_ReportByGoods.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_ReportByGoods.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByGoods.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_ReportByGoods.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_ReportByGoods.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByGoods.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_ReportByGoods.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_ReportByGoods.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_ReportByGoods.Text" xml:space="preserve">
+    <value>گزارش فروش براساس محصول</value>
+  </data>
+  <data name="submenu_ReportByGoods.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_ReportByGoods.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radMenuSeparatorItem2.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem2.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radMenuSeparatorItem2.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radMenuSeparatorItem2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem2.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radMenuSeparatorItem2.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem2.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radMenuSeparatorItem2.Text" xml:space="preserve">
+    <value>radMenuSeparatorItem2</value>
+  </data>
+  <data name="radMenuSeparatorItem2.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem2.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.Text" xml:space="preserve">
+    <value>پرفروش ترین محصولات هر دسته</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_ReportByBestSellingCatagories.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radMenuSeparatorItem7.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem7.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radMenuSeparatorItem7.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radMenuSeparatorItem7.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem7.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radMenuSeparatorItem7.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem7.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radMenuSeparatorItem7.Text" xml:space="preserve">
+    <value>radMenuSeparatorItem7</value>
+  </data>
+  <data name="radMenuSeparatorItem7.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem7.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_DebtReport.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_DebtReport.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_DebtReport.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_DebtReport.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_DebtReport.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_DebtReport.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_DebtReport.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_DebtReport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_DebtReport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_DebtReport.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_DebtReport.Text" xml:space="preserve">
+    <value>گزارش میزان بدهی</value>
+  </data>
+  <data name="submenu_DebtReport.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_DebtReport.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radMenuSeparatorItem9.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem9.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radMenuSeparatorItem9.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radMenuSeparatorItem9.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem9.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radMenuSeparatorItem9.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem9.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radMenuSeparatorItem9.Text" xml:space="preserve">
+    <value>radMenuSeparatorItem9</value>
+  </data>
+  <data name="radMenuSeparatorItem9.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem9.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Subscribers.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_Subscribers.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_Subscribers.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_Subscribers.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Subscribers.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_Subscribers.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_Subscribers.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Subscribers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Subscribers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Subscribers.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_Subscribers.Text" xml:space="preserve">
+    <value>لیست مشترکین</value>
+  </data>
+  <data name="submenu_Subscribers.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_Subscribers.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Reports.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Reports.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Reports.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_Reports.Text" xml:space="preserve">
+    <value>گزارشگیری</value>
+  </data>
+  <data name="menu_Reports.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Reports.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Setting.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Setting.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Setting.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_Setting.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Setting.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_Setting.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Table.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_Table.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_Table.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_Table.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Table.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_Table.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_Table.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuTable_Create.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuTable_Create.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuTable_Create.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuTable_Create.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuTable_Create.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuTable_Create.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuTable_Create.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuTable_Create.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuTable_Create.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuTable_Create.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuTable_Create.Text" xml:space="preserve">
+    <value>تعریف </value>
+  </data>
+  <data name="submenuTable_Create.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuTable_Create.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenuTable_EditDelete.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuTable_EditDelete.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuTable_EditDelete.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuTable_EditDelete.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuTable_EditDelete.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuTable_EditDelete.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuTable_EditDelete.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuTable_EditDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuTable_EditDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuTable_EditDelete.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuTable_EditDelete.Text" xml:space="preserve">
+    <value>حذف / اصلاح</value>
+  </data>
+  <data name="submenuTable_EditDelete.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuTable_EditDelete.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Table.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Table.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Table.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_Table.Text" xml:space="preserve">
+    <value>میز</value>
+  </data>
+  <data name="submenu_Table.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_Table.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Catagories.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_Catagories.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_Catagories.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_Catagories.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Catagories.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_Catagories.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_Catagories.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuCatagories_Create.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuCatagories_Create.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuCatagories_Create.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuCatagories_Create.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuCatagories_Create.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuCatagories_Create.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuCatagories_Create.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuCatagories_Create.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuCatagories_Create.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuCatagories_Create.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuCatagories_Create.Text" xml:space="preserve">
+    <value>تعریف</value>
+  </data>
+  <data name="submenuCatagories_Create.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuCatagories_Create.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuCatagories_EditDelete.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuCatagories_EditDelete.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuCatagories_EditDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.Text" xml:space="preserve">
+    <value>اصلاح / حذف</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuCatagories_EditDelete.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Catagories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Catagories.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Catagories.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_Catagories.Text" xml:space="preserve">
+    <value>دسته</value>
+  </data>
+  <data name="submenu_Catagories.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_Catagories.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Products.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_Products.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_Products.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_Products.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_Products.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_Products.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_Products.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuProducts_Create.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuProducts_Create.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuProducts_Create.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuProducts_Create.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuProducts_Create.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuProducts_Create.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuProducts_Create.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuProducts_Create.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuProducts_Create.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuProducts_Create.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuProducts_Create.Text" xml:space="preserve">
+    <value>تعریف</value>
+  </data>
+  <data name="submenuProducts_Create.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuProducts_Create.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenuProducts_EditDelete.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuProducts_EditDelete.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuProducts_EditDelete.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuProducts_EditDelete.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuProducts_EditDelete.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuProducts_EditDelete.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuProducts_EditDelete.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuProducts_EditDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuProducts_EditDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuProducts_EditDelete.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuProducts_EditDelete.Text" xml:space="preserve">
+    <value>اصلاح / حذف</value>
+  </data>
+  <data name="submenuProducts_EditDelete.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuProducts_EditDelete.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_Products.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Products.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_Products.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_Products.Text" xml:space="preserve">
+    <value>محصولات</value>
+  </data>
+  <data name="submenu_Products.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_Products.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radMenuSeparatorItem3.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem3.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radMenuSeparatorItem3.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radMenuSeparatorItem3.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem3.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radMenuSeparatorItem3.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem3.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radMenuSeparatorItem3.Text" xml:space="preserve">
+    <value>radMenuSeparatorItem3</value>
+  </data>
+  <data name="radMenuSeparatorItem3.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem3.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_User.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_User.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_User.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_User.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_User.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_User.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_User.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_Add.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuuser_Add.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuuser_Add.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuuser_Add.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_Add.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuuser_Add.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuuser_Add.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_Add.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuuser_Add.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuuser_Add.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuuser_Add.Text" xml:space="preserve">
+    <value>تعریف</value>
+  </data>
+  <data name="submenuuser_Add.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuuser_Add.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenuuser_EditDelete.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuuser_EditDelete.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuuser_EditDelete.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuuser_EditDelete.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_EditDelete.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuuser_EditDelete.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuuser_EditDelete.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_EditDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuuser_EditDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuuser_EditDelete.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuuser_EditDelete.Text" xml:space="preserve">
+    <value>اصلاح / حذف</value>
+  </data>
+  <data name="submenuuser_EditDelete.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuuser_EditDelete.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenuuser_Access.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenuuser_Access.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenuuser_Access.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenuuser_Access.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_Access.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenuuser_Access.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenuuser_Access.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenuuser_Access.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuuser_Access.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenuuser_Access.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenuuser_Access.Text" xml:space="preserve">
+    <value>تعیین سطح دسترسی</value>
+  </data>
+  <data name="submenuuser_Access.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenuuser_Access.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_User.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_User.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_User.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_User.Text" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="submenu_User.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_User.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radMenuSeparatorItem5.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem5.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radMenuSeparatorItem5.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radMenuSeparatorItem5.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem5.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radMenuSeparatorItem5.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radMenuSeparatorItem5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radMenuSeparatorItem5.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radMenuSeparatorItem5.Text" xml:space="preserve">
+    <value>radMenuSeparatorItem5</value>
+  </data>
+  <data name="radMenuSeparatorItem5.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="radMenuSeparatorItem5.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_BackUp.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenu_BackUp.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenu_BackUp.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenu_BackUp.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenu_BackUp.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenu_BackUp.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenu_BackUp.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenubackup_Create.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenubackup_Create.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenubackup_Create.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenubackup_Create.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenubackup_Create.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenubackup_Create.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenubackup_Create.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenubackup_Create.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenubackup_Create.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenubackup_Create.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenubackup_Create.Text" xml:space="preserve">
+    <value>تهیه</value>
+  </data>
+  <data name="submenubackup_Create.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenubackup_Create.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenubackup_UpLoad.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="submenubackup_UpLoad.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="submenubackup_UpLoad.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="submenubackup_UpLoad.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenubackup_UpLoad.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="submenubackup_UpLoad.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="submenubackup_UpLoad.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submenubackup_UpLoad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenubackup_UpLoad.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenubackup_UpLoad.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenubackup_UpLoad.Text" xml:space="preserve">
+    <value>بارگذاری</value>
+  </data>
+  <data name="submenubackup_UpLoad.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenubackup_UpLoad.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="submenu_BackUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_BackUp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="submenu_BackUp.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="submenu_BackUp.Text" xml:space="preserve">
+    <value>نسخه پشتیبان</value>
+  </data>
+  <data name="submenu_BackUp.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="submenu_BackUp.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Setting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Setting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Setting.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_Setting.Text" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="menu_Setting.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Setting.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Reservation.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_Reservation.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Reservation.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_Reservation.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Reservation.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_Reservation.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Reservation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Reservation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Reservation.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_Reservation.Text" xml:space="preserve">
+    <value>رزرو میز</value>
+  </data>
+  <data name="menu_Reservation.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Reservation.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_Subscription.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_Subscription.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Subscription.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_Subscription.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Subscription.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_Subscription.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_Subscription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Subscription.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_Subscription.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_Subscription.Text" xml:space="preserve">
+    <value>ثبت عضویت</value>
+  </data>
+  <data name="menu_Subscription.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_Subscription.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_AboutUs.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_AboutUs.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_AboutUs.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_AboutUs.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_AboutUs.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_AboutUs.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_AboutUs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_AboutUs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_AboutUs.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_AboutUs.Text" xml:space="preserve">
+    <value>درباره ما</value>
+  </data>
+  <data name="menu_AboutUs.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_AboutUs.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menu_exit.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="menu_exit.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_exit.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_exit.HintText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_exit.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="menu_exit.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menu_exit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_exit.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="menu_exit.RightToLeft" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menu_exit.Text" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="menu_exit.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="menu_exit.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radMenu1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSansDNFaNum, 9.75pt</value>
+  </data>
+  <data name="radMenu1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radMenu1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 0, 0</value>
+  </data>
+  <data name="radMenu1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="radMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 88</value>
+  </data>
+  <data name="radMenu1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radMenu1.Name" xml:space="preserve">
+    <value>radMenu1</value>
+  </data>
+  <data name="&gt;&gt;radMenu1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenu, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radMenu1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radMenu1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>940, 590</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSansDNFaNum, 9.75pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEACACoDgAAFgAAACgAAAAwAAAAYAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAD/2Ojw/+Do8P8QEBD/GBgY/9Dg6P/o8Pj/4PDw/+jw8P/I2OD/KCgo/yAgIP/Y4Oj/ODg4/8DI
+        0P9ISEj/wNDY/2BgYP8ICAj/2ODw/0BAQP+AgID/aGho/7jI0P/I2Oj/UFBQ/3BwcP8wMDD/WGiI/9Dg
+        8P9YWFj/IEBo/yhAaP+IiIj/yNDY/yA4aP+QoLD/KDDg/1BoiP8wSHD/wMjY/3h4eP+wwND/sMDI/2hw
+        cP9QYID/oLDA/8jQ4P/Q2OD/mJiY//D4+P/Y6Oj/YHiQ/2BwkP9oeJj/cHh4/3iAgP+ouMj/uMDI/3iI
+        oP+QkJD/YGho/1hwkP+goKD/QFh4/0hQUP+ouMD/mKi4/3CAmP+osLj/iJiw/0hQ4P84UHD/SGCA/6io
+        qP+AgIj/iJio/9Dg4P8wODj/uLi4/zhQeP+YqMD/SFiA/3iQoP84QOD/OEBA/5CYoP/I2Nj/aICY/1hw
+        iP+AkKj/yODo/yA4YP+osMD/aHDg/ygwMP9QUFj/sLjI/7CwsP/AyOj/eICI/5iwwP9geJj/sLjA/6Co
+        uP9weID/oLC4/4iQmP94kKj/gIiI/xgYIP+YoKj/cIig/7C4uP9oaHD/UFhY/6CosP9YWGD/cICg/4iQ
+        kP/o6Oj/YGBo/5igoP+4yNj/gJio/0BISP8wMDj/SEjg/1BY4P+owND/oKio/2BwiP+IoLD/ICAo/3B4
+        4P94iLD/wMjI/3h46P+gqOj/cHB4/zA44P94eID/0Njo/9jY8P+QoLj/QEBI/+Do6P+QkJj/UGCI/9DY
+        8P+YmKD/SFh4/9jY2P+40Nj/uMDQ/5CYmP/I0PD/QEDg/8DQ4P8wSGj/4PD4/+jo+P94iKj/wMjw/9jg
+        4P+guMj/gIiQ/7i48P9wgLD/wMDA/0hIUP+osMj/ODhA/3Bw6P+gqMj/qLCw/6iw6P94gOj/yMjI/4CI
+        sP9weOj/KCgw/5ig6P9YaJj/qKiw/8jI0P9YYOD/UFDg/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAPBENCgoLCwsLGxkhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEKCwsL
+        CwsLCwQEBAsECxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsLCwQLBAQEBAQLBAQEBAQE
+        FgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALCwQEBAQEBAQSEgMEBAQEBAQEBCkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAACkEBAQECwsLCwsLCwQEBAsLBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAABUEBAQKGxsbGxsKCwQDEgQKGwQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALBAQNDQ0b
+        AxISEgASCw0NDQsEBBkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwQKDw8UBBISEgQLDQ8PDwQE
+        DQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEECw8PCg8aPD9iTxENBAspAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAIQ8VqaliPBoZKQoZPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAh4mBoNDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ALmpTxsDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKPwMSEhEAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKFQAAAAQAAAAAAAAAABUWDwoLBAsA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKRkREREWGhkKBAQEBAoKGw0NfQsAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAABURCgsEBAQLCxsNDx4sS5t0ZzpnaxsxAAAAAAAAAAAAAAAAAAAAAAAAFREUCwQL
+        CwsbDQ8eGkt6r2c6Di8wCRgFBQEFVhshAAAAAAAAAAAAADwaERsLBAuFGw0UGSwVm3RFDhAQFyoQK0Mu
+        kCodAQEBAgEFahsaAAAAAAAAAAAABAQKDQ89OGtvRWoQIhcQKDlDOS6QRkYkLi4qKoGeBQECAgEYXRsW
+        AAAAAAAAAAAACz1vFxAJBRCQOSQuCUYkDDuQEAUqBQIHBgEdBQUFBQGgAgEFQk4ZAAAAAAAAAAAACxYr
+        BR0BAQUuLgU5BQIqAgkFBgcBBwYGBgcCAQEBB6CgoAIBDhsPAAAAAAAAAAAACxoOBQECAQUFEAIGBgYG
+        BggIBgKgBgIMDAIJEBAGoKCgAgIBIhQNAAAAAAAAAAAACxoOAQIBBQEFBQwJCRdDKj5YEAkJDCIJEAEX
+        FwkHBgIBAQEBEA8NAAAAAAAAAAAACxoXAQIBARg2NjYcPiZARFk7CTAGBw4QEBAwCQUGBwIBBVsFEEEN
+        AAAAAAAAAAAABDcXAQICAgUcUjtIWnA5EC4QBjAMBjIyAgwHBgYGBgEBAgcCCXUPAAAAAAAAAAAABCkQ
+        AaCgAQFEWioGBgYGBjIyMjIIAjIyMgYGBgYGBgcHAQEBCT0PAAAAAAAAAAAABBoQAQICoAcCCAYyMgcC
+        DAwyE6ensIqVMjIyMgYGBgICAgEBCYsZAAAAAAAAAAAABBoQAaCgBwYGBgYyLjU7NEmuRyWMjCWAjzIG
+        BgYGBgegAgEBBTgZAAAAAAAAAAAABDciAQcBAaAGBjIGLSBaJiCHJVSxtIx/nAYGBgYGBgYHAQEBBaYP
+        PwAAAAAAAAAABCkiAQETAQKgoDIGSSBoNCCHJbEGBrpUowYGBgYGBgYHAgcCBWsUPwAAAAAAAAAABCkJ
+        AgEBAgYGBwYHSSAcPiCzJbteiVSMnAYGBgYGBgYHAQegAW8NPAAAAAAAAAAABBUJAQEHBgYGBwYHNidI
+        UFKarbuAgICxBgYGBgYGBgYCAgIBAXROPAAAAAAAAAAABBUiHQEBAgYGAgYyIjRENXAIObeHdhxGMgYG
+        BgYGBgYHBwIBAmcbFQAAAAAAAAAABBUiAQEBAqAGBgYyNCBESSAkJydGLkAgDjIGBgYGBgagAgICAjoN
+        GgAAAAAAAAAABCEwAQEBAgcGBgYGJiAkRCBaIFIQBjUgKzIyBgYGBgYGoKCgAg4NEQAAAAAAAAAAAyEw
+        AqACoAYGBgYGJiA1PiA7ICdDIiYgYTIGBgYHAgICAqCgAhAUHgAAAAAAAAAAA20JAqCgoAYGAgECHCAg
+        ICA7ICAnSCAgOQYBBwICAgEBAaACASJ9HgAAAAAAAAAAA0sJAQECoKCgATVaLjQ+PjYqRjU+Pj5YKpBE
+        KAEBBqABAQICARBBHgAAAAAAAAAAAyEJAQEBoKCgBhdAUDkMDAIGAQwMBRAkJic7MAEBoKAdAQGgAgl1
+        GQAAAAAAAAAAA0sJBQEBHQKgoKCeNlA7CQYGAQYCmiYgJhAGBgcBAQEBAqACAjA9DwAAAAAAAAAAAyEw
+        HQEBBQKgoKABATkmSS4BATlYJyA0MAYGBqACAQECAgICAQWLFDEAAAAAAAAAAyEwBQUdHQICB6ABAQEB
+        RiccHEhJNSA2CQICoKABAQECAgEBAQU4DTwAAAAAAAAABDgOCZ6eMAEBAQECAQIBAjk+SZAFKjRGMAIC
+        AQcCAgIBAQEdHQlkTikAAAAAAAAACwRODVUUfXU9Gho4k3p6gq9xZzoOIg4QECIwMAEBDAwFBQUYBRBk
+        GxYAAAAAAAAAPBUpKRoWEREWERERERYRFhYWFhERGRkPDxQUDxkZHhEajThtIWlBCh4AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAABKPzExPBUpFhEPFBsKCgoLCwoKCxkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD//gAf//8AAP/4AAf//wAA//AAAf//
+        AAD/4AAA//8AAP/AAAD//wAA/8AAAP//AAD/4AAA//8AAP/wAAH//wAA//gAA///AAD//gAP//8AAP//
+        4H///wAA///gf///AAD///A///8AAP//8D/AfwAA///4AAB/AAD//+AAAD8AAP/wAAAAPwAA8AAAAAA/
+        AADgAAAAAD8AAOAAAAAAPwAA4AAAAAA/AADgAAAAAD8AAOAAAAAAPwAA4AAAAAA/AADgAAAAAD8AAOAA
+        AAAAPwAA4AAAAAA/AADgAAAAAD8AAOAAAAAAHwAA4AAAAAAfAADgAAAAAB8AAOAAAAAAHwAA4AAAAAAf
+        AADgAAAAAB8AAOAAAAAAHwAA4AAAAAAfAADgAAAAAB8AAOAAAAAAHwAA4AAAAAAfAADgAAAAAB8AAOAA
+        AAAADwAA4AAAAAAPAADgAAAAAA8AAOAAAAAADwAA4AAAAAAPAAD///4AAA8AAP///////wAA
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>نرم افزار مدیریت کافه و رستوران</value>
+  </data>
+  <data name="&gt;&gt;telerikMetroTheme1.Name" xml:space="preserve">
+    <value>telerikMetroTheme1</value>
+  </data>
+  <data name="&gt;&gt;telerikMetroTheme1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.Themes.TelerikMetroTheme, Telerik.WinControls.Themes.TelerikMetro, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_Cashier.Name" xml:space="preserve">
+    <value>menu_Cashier</value>
+  </data>
+  <data name="&gt;&gt;menu_Cashier.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_Factor.Name" xml:space="preserve">
+    <value>submenu_Factor</value>
+  </data>
+  <data name="&gt;&gt;submenu_Factor.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_NotCheckOut.Name" xml:space="preserve">
+    <value>submenu_NotCheckOut</value>
+  </data>
+  <data name="&gt;&gt;submenu_NotCheckOut.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_EditFactor.Name" xml:space="preserve">
+    <value>submenu_EditFactor</value>
+  </data>
+  <data name="&gt;&gt;submenu_EditFactor.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_AllFactors.Name" xml:space="preserve">
+    <value>submenu_AllFactors</value>
+  </data>
+  <data name="&gt;&gt;submenu_AllFactors.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_Warehouse.Name" xml:space="preserve">
+    <value>menu_Warehouse</value>
+  </data>
+  <data name="&gt;&gt;menu_Warehouse.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_EntraceGoods.Name" xml:space="preserve">
+    <value>submenu_EntraceGoods</value>
+  </data>
+  <data name="&gt;&gt;submenu_EntraceGoods.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_EditWareHouseData.Name" xml:space="preserve">
+    <value>submenu_EditWareHouseData</value>
+  </data>
+  <data name="&gt;&gt;submenu_EditWareHouseData.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_Resources.Name" xml:space="preserve">
+    <value>submenu_Resources</value>
+  </data>
+  <data name="&gt;&gt;submenu_Resources.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuResouce_Create.Name" xml:space="preserve">
+    <value>submenuResouce_Create</value>
+  </data>
+  <data name="&gt;&gt;submenuResouce_Create.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuResouce_EditDelete.Name" xml:space="preserve">
+    <value>submenuResouce_EditDelete</value>
+  </data>
+  <data name="&gt;&gt;submenuResouce_EditDelete.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_Reports.Name" xml:space="preserve">
+    <value>menu_Reports</value>
+  </data>
+  <data name="&gt;&gt;menu_Reports.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_ReportByDate.Name" xml:space="preserve">
+    <value>submenu_ReportByDate</value>
+  </data>
+  <data name="&gt;&gt;submenu_ReportByDate.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_ReportByGoods.Name" xml:space="preserve">
+    <value>submenu_ReportByGoods</value>
+  </data>
+  <data name="&gt;&gt;submenu_ReportByGoods.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem2.Name" xml:space="preserve">
+    <value>radMenuSeparatorItem2</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuSeparatorItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_ReportByBestSellingCatagories.Name" xml:space="preserve">
+    <value>submenu_ReportByBestSellingCatagories</value>
+  </data>
+  <data name="&gt;&gt;submenu_ReportByBestSellingCatagories.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem7.Name" xml:space="preserve">
+    <value>radMenuSeparatorItem7</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem7.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuSeparatorItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_DebtReport.Name" xml:space="preserve">
+    <value>submenu_DebtReport</value>
+  </data>
+  <data name="&gt;&gt;submenu_DebtReport.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem9.Name" xml:space="preserve">
+    <value>radMenuSeparatorItem9</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem9.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuSeparatorItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_Subscribers.Name" xml:space="preserve">
+    <value>submenu_Subscribers</value>
+  </data>
+  <data name="&gt;&gt;submenu_Subscribers.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_Setting.Name" xml:space="preserve">
+    <value>menu_Setting</value>
+  </data>
+  <data name="&gt;&gt;menu_Setting.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_Table.Name" xml:space="preserve">
+    <value>submenu_Table</value>
+  </data>
+  <data name="&gt;&gt;submenu_Table.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuTable_Create.Name" xml:space="preserve">
+    <value>submenuTable_Create</value>
+  </data>
+  <data name="&gt;&gt;submenuTable_Create.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuTable_EditDelete.Name" xml:space="preserve">
+    <value>submenuTable_EditDelete</value>
+  </data>
+  <data name="&gt;&gt;submenuTable_EditDelete.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_Catagories.Name" xml:space="preserve">
+    <value>submenu_Catagories</value>
+  </data>
+  <data name="&gt;&gt;submenu_Catagories.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuCatagories_Create.Name" xml:space="preserve">
+    <value>submenuCatagories_Create</value>
+  </data>
+  <data name="&gt;&gt;submenuCatagories_Create.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuCatagories_EditDelete.Name" xml:space="preserve">
+    <value>submenuCatagories_EditDelete</value>
+  </data>
+  <data name="&gt;&gt;submenuCatagories_EditDelete.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_Products.Name" xml:space="preserve">
+    <value>submenu_Products</value>
+  </data>
+  <data name="&gt;&gt;submenu_Products.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuProducts_Create.Name" xml:space="preserve">
+    <value>submenuProducts_Create</value>
+  </data>
+  <data name="&gt;&gt;submenuProducts_Create.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuProducts_EditDelete.Name" xml:space="preserve">
+    <value>submenuProducts_EditDelete</value>
+  </data>
+  <data name="&gt;&gt;submenuProducts_EditDelete.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem3.Name" xml:space="preserve">
+    <value>radMenuSeparatorItem3</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem3.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuSeparatorItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_User.Name" xml:space="preserve">
+    <value>submenu_User</value>
+  </data>
+  <data name="&gt;&gt;submenu_User.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuuser_Add.Name" xml:space="preserve">
+    <value>submenuuser_Add</value>
+  </data>
+  <data name="&gt;&gt;submenuuser_Add.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuuser_EditDelete.Name" xml:space="preserve">
+    <value>submenuuser_EditDelete</value>
+  </data>
+  <data name="&gt;&gt;submenuuser_EditDelete.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenuuser_Access.Name" xml:space="preserve">
+    <value>submenuuser_Access</value>
+  </data>
+  <data name="&gt;&gt;submenuuser_Access.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem5.Name" xml:space="preserve">
+    <value>radMenuSeparatorItem5</value>
+  </data>
+  <data name="&gt;&gt;radMenuSeparatorItem5.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuSeparatorItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenu_BackUp.Name" xml:space="preserve">
+    <value>submenu_BackUp</value>
+  </data>
+  <data name="&gt;&gt;submenu_BackUp.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenubackup_Create.Name" xml:space="preserve">
+    <value>submenubackup_Create</value>
+  </data>
+  <data name="&gt;&gt;submenubackup_Create.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;submenubackup_UpLoad.Name" xml:space="preserve">
+    <value>submenubackup_UpLoad</value>
+  </data>
+  <data name="&gt;&gt;submenubackup_UpLoad.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_Reservation.Name" xml:space="preserve">
+    <value>menu_Reservation</value>
+  </data>
+  <data name="&gt;&gt;menu_Reservation.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_Subscription.Name" xml:space="preserve">
+    <value>menu_Subscription</value>
+  </data>
+  <data name="&gt;&gt;menu_Subscription.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_AboutUs.Name" xml:space="preserve">
+    <value>menu_AboutUs</value>
+  </data>
+  <data name="&gt;&gt;menu_AboutUs.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;menu_exit.Name" xml:space="preserve">
+    <value>menu_exit</value>
+  </data>
+  <data name="&gt;&gt;menu_exit.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Version=2020.1.218.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+</root>

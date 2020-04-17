@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="warehouse" targetNamespace="http://tempuri.org/warehouse.xsd" xmlns:mstns="http://tempuri.org/warehouse.xsd" xmlns="http://tempuri.org/warehouse.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CafeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CafeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HomeCafe.Properties.Settings.GlobalReference.Default.CafeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_1TableAdapter" GeneratorDataComponentClassName="View_1TableAdapter" Name="View_1" UserDataComponentName="View_1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CafeConnectionString (Settings)" DbObjectName="Cafe.dbo.View_1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, نام, [وزن / تعداد], [تاریخ خرید], [تاریخ انقضا], هزینه, بدهی, [واحد وزن], [تامین کننده] FROM dbo.View_1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="نام" DataSetColumn="نام" />
+              <Mapping SourceColumn="وزن / تعداد" DataSetColumn="وزن / تعداد" />
+              <Mapping SourceColumn="تاریخ خرید" DataSetColumn="تاریخ خرید" />
+              <Mapping SourceColumn="تاریخ انقضا" DataSetColumn="تاریخ انقضا" />
+              <Mapping SourceColumn="هزینه" DataSetColumn="هزینه" />
+              <Mapping SourceColumn="بدهی" DataSetColumn="بدهی" />
+              <Mapping SourceColumn="واحد وزن" DataSetColumn="واحد وزن" />
+              <Mapping SourceColumn="تامین کننده" DataSetColumn="تامین کننده" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="warehouse" msprop:Generator_UserDSName="warehouse">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_1" msprop:Generator_TableClassName="View_1DataTable" msprop:Generator_TableVarName="tableView_1" msprop:Generator_TablePropName="View_1" msprop:Generator_RowDeletingName="View_1RowDeleting" msprop:Generator_RowChangingName="View_1RowChanging" msprop:Generator_RowEvHandlerName="View_1RowChangeEventHandler" msprop:Generator_RowDeletedName="View_1RowDeleted" msprop:Generator_UserTableName="View_1" msprop:Generator_RowChangedName="View_1RowChanged" msprop:Generator_RowEvArgName="View_1RowChangeEvent" msprop:Generator_RowClassName="View_1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="نام" msprop:Generator_ColumnVarNameInTable="columnنام" msprop:Generator_ColumnPropNameInRow="نام" msprop:Generator_ColumnPropNameInTable="نامColumn" msprop:Generator_UserColumnName="نام">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="وزن_x0020__x002F__x0020_تعداد" msprop:Generator_ColumnVarNameInTable="_columnوزن___تعداد" msprop:Generator_ColumnPropNameInRow="_وزن___تعداد" msprop:Generator_ColumnPropNameInTable="_وزن___تعدادColumn" msprop:Generator_UserColumnName="وزن / تعداد" type="xs:double" />
+              <xs:element name="تاریخ_x0020_خرید" msprop:Generator_ColumnVarNameInTable="columnتاریخ_خرید" msprop:Generator_ColumnPropNameInRow="تاریخ_خرید" msprop:Generator_ColumnPropNameInTable="تاریخ_خریدColumn" msprop:Generator_UserColumnName="تاریخ خرید">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تاریخ_x0020_انقضا" msprop:Generator_ColumnVarNameInTable="columnتاریخ_انقضا" msprop:Generator_ColumnPropNameInRow="تاریخ_انقضا" msprop:Generator_ColumnPropNameInTable="تاریخ_انقضاColumn" msprop:Generator_UserColumnName="تاریخ انقضا" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="هزینه" msprop:Generator_ColumnVarNameInTable="columnهزینه" msprop:Generator_ColumnPropNameInRow="هزینه" msprop:Generator_ColumnPropNameInTable="هزینهColumn" msprop:Generator_UserColumnName="هزینه" type="xs:long" />
+              <xs:element name="بدهی" msprop:Generator_ColumnVarNameInTable="columnبدهی" msprop:Generator_ColumnPropNameInRow="بدهی" msprop:Generator_ColumnPropNameInTable="بدهیColumn" msprop:Generator_UserColumnName="بدهی" type="xs:boolean" />
+              <xs:element name="واحد_x0020_وزن" msprop:Generator_ColumnVarNameInTable="columnواحد_وزن" msprop:Generator_ColumnPropNameInRow="واحد_وزن" msprop:Generator_ColumnPropNameInTable="واحد_وزنColumn" msprop:Generator_UserColumnName="واحد وزن" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="تامین_x0020_کننده" msprop:Generator_ColumnVarNameInTable="columnتامین_کننده" msprop:Generator_ColumnPropNameInRow="تامین_کننده" msprop:Generator_ColumnPropNameInTable="تامین_کنندهColumn" msprop:Generator_UserColumnName="تامین کننده">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:View_1" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
